@@ -1,0 +1,5 @@
+show databases;
+
+Create database sb007;
+
+USE sb007;

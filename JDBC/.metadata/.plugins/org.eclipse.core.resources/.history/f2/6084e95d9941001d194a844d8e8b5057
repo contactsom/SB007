@@ -1,0 +1,26 @@
+1. Create the Java Project.
+2. Set the JAVA version as 8 if not already done .
+3. Create the /lib folder.
+4. Place the Jar file "mysql-connector-java-8.0.28.jar" in to /lib folder .
+5. Right Click on Jar->Build path -> Add to build path.
+6. You should be able to see jar got added in to "Referenced Libraries"
+
+
+Why we are using try catch
+
+
+File Operation IO
+
+
+Error : Runtime 
+		Compile time 
+		
+		1. I am write a code to , write the data/text in to file 
+		2. File path in order to write the text
+		3. 
+
+
+try a procedure and when true, execute the code in catch
+handle the exceptions
+to be tested for errors
+to maintain work flow

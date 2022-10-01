@@ -1,0 +1,29 @@
+package com.simplilearn.jdbc.statement;
+
+import java.sql.DriverManager;
+
+public class StatementExample {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to JDBC");
+		
+		try {
+			//1. Load the Driver
+			Class.forName("com.mysql.jdbc.Driver");
+			DriverManager.getConnection("");
+			
+			
+			//2. Get the Connection 
+			//3. Create the Statement.
+			//4. Prepare the Query & Execute.
+			//5. CLose the Resource .
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		
+		
+		
+	}
+}

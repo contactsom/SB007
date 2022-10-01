@@ -1,0 +1,11 @@
+package com.simplilearn.jdbc.statement;
+
+public class StatementExample {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to JDBC");
+		
+		//1. Load the Driver
+		//2. 
+	}
+}

@@ -1,0 +1,9 @@
+1. Create the Java Project.
+2. Set the JAVA version as 8 if not already done .
+3. Create the /lib folder.
+4. Place the Jar file "mysql-connector-java-8.0.28.jar" in to /lib folder .
+5. Add the JAR file in to refersanced lib
+
+
+
+

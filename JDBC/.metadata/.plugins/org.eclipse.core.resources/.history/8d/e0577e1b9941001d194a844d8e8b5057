@@ -1,0 +1,18 @@
+package com.simplilearn.jdbc.statement;
+
+public class StatementExample {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to JDBC");
+		
+		
+		
+		
+		//1. Load the Driver
+		//2. Get the Connection 
+		//3. Create the Statement.
+		//4. Prepare the Query & Execute.
+		//5. CLose the Resource .
+		
+	}
+}

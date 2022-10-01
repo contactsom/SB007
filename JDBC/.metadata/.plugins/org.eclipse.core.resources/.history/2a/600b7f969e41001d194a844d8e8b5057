@@ -1,0 +1,13 @@
+show databases;
+
+Create database sb007;
+
+USE sb007;
+
+
+CREATE TABLE Employees(
+     	id int NOT NULL PRIMARY KEY,
+     	age int NOT NULL,
+    	firstName varchar (255),
+     	lastName varchar (255)
+     );
