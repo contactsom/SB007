@@ -1,0 +1,10 @@
+
+
+CREATE PROCEDURE GetAllStudent() 
+{
+	SELECT *  FROM STUDENT;
+} 
+
+
+
+

@@ -28,7 +28,7 @@ public class DeleteStatementExample {
 			}
 			
 			//5. CLose the Resource .
-			con.isClosed();
+			con.close();
 			stmt.close();
 			
 			

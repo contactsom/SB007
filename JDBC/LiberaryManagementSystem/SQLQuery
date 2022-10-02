@@ -1,0 +1,27 @@
+
+show databases;
+
+Create database sb007;
+
+USE sb007;
+
+
+CREATE TABLE BOOKS(
+     	BOOK_ID int NOT NULL PRIMARY KEY,
+     	BOOK_NAME varchar (255),
+     	BOOK_AUTHOR varchar (255),
+     	BOOK_PUBLICATION varchar (255),
+     	BOOK_PRICE int ,
+     	BOOK_ISBN int
+     );
+     
+ select * from BOOKS;
+     
+
+ CREATE TABLE USERS(
+     	USER_NAME varchar (255),
+     	USER_PASSWORD varchar (255)
+     );
+        
+INSERT INTO USERS VALUES ('admin','admin@1234');
+INSERT INTO USERS VALUES ('root','root@1234');

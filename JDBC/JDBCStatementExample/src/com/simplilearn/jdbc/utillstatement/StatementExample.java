@@ -1,21 +1,18 @@
-package com.simplilearn.jdbc.statement;
+package com.simplilearn.jdbc.utillstatement;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
+import com.simplilearn.jdbc.utill.JDBCUtill;
+
 public class StatementExample {
 
 	public static void main(String[] args) {
 		try {
-			//1. Load the Driver
-			//Class.forName("com.mysql.jdbc.Driver"); /*This is deprecated. */
 			
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			
-			//2. Get the Connection 
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sb007","root","root12345");
+			Connection con=JDBCUtill.getMySqlConnection();
 			
 			//3. Create the Statement.
 			Statement stmt = con.createStatement();
@@ -31,10 +28,7 @@ public class StatementExample {
 				);
 			}
 			
-			//5. CLose the Resource .
-			con.isClosed();
-			stmt.close();
-			rs.close();
+			JDBCUtill.cleanUp(con, stmt, rs);
 			
 		} catch (Exception e) {
 			e.printStackTrace();

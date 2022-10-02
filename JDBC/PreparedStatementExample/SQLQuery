@@ -1,0 +1,26 @@
+
+show databases;
+
+Create database sb007;
+
+USE sb007;
+
+
+CREATE TABLE Employees(
+     	id int NOT NULL PRIMARY KEY,
+     	age int NOT NULL,
+    	firstName varchar (255),
+     	lastName varchar (255)
+     );
+     
+     
+CREATE TABLE STUDENT(
+		STUDENT_ID int NOT NULL PRIMARY KEY,
+		STUDENT_AGE int NOT NULL,
+		STUDENT_FNAME varchar (255),
+		STUDENT_LNAME varchar (255)
+);
+
+select * from STUDENT;
+
+INSERT INTO STUDENT VALUES (501, 22, 'Drazen', 'Drinic');

@@ -1,0 +1,26 @@
+
+
+
+annujoon06
+
+List<> myage= new ArrayList():
+myage.add(23);
+myage.add(24);
+myage.add(25);
+
+INSERT INTO STUDENT VALUES (501, 22, 'abc', '1Drinic')
+INSERT INTO STUDENT VALUES (502, 32, 'bfd', '2Drinic')
+INSERT INTO STUDENT VALUES (503, 42, '3Drazen', '3Drinic')
+INSERT INTO STUDENT VALUES (504, 52, '4Drazen', '4Drinic')
+
+List<> myage= new ArrayList():
+myage.add(23);
+myage.add(24);
+myage.add(25);
+
+			/*First Record*/
+			ps.setInt(1, 501);
+			ps.setInt(2, 22);
+			ps.setString(3, "Drazen");
+			ps.setString(4, "Drinic");
+			ps.execute();
