@@ -1,0 +1,69 @@
+TODO :
+not on the highlighted region. but about xml format that being used in you explanantion
+
+from gopibalaraju to All Participants:
+sir, but what is the need of creating POJO class?
+Why we make POJO
+
+
+We see what we need to do in steps, but the question is why we do that
+
+
+
+Hibernate is Persistance Framework 
+
+
+HIBERNATE 
+	1. XML Configuration 
+	2. Annotation Configuration
+	
+Steps to Create the Hibernate Project ?
+
+1. Create the JAVA Project .
+2. Create the /lib folder .
+3. Place the required JAR's file in to /lib folder .
+4. Select all the JAR's and add in to build path. 
+5. Place the "hibernate.cfg.xml" in to /src folder .
+	Know more - https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/session-configuration.html
+6. Create the POJO Class
+7. Place the "*.hbm.xml" file in to the package where POJO classes are there.
+	7.1 What is the name of hbm file <POJO-FILE-NAME>.hbm.xml
+	7.2 *.hbm.xml and POJO class should be in same package.
+
+
+In Hibernate type="string" is optional.
+
+JDBC:
+Create the table 
+
+JDBC is not able to CREATE The table it self -True or false
+
+
+
+
+
+
+
+POJO CLASS
+	
+
+ENTITY CLASS
+	POJO + hbm file
+
+
+<property name="hbm2ddl.auto">create</property>
+	1. It drop the Existing table if exist,  Table details -> *.hbm file
+	2. Create the New table with the name as *.hbm file
+
+
+
+
+
+
+
+
+
+
+
+
+
