@@ -1,0 +1,64 @@
+Mapping 
+1. One to One mapping
+2. One to Many mapping
+3. Many to one mapping
+4. Many to many Mapping 
+
+Mapping Direction :
+	1. Uni Directional mapping 
+	2. Bi Directional mapping 
+	
+Way to Implement the mapping 
+	1. XML 
+	2. Annotation Ways.
+
+***************************************
+1. One to One Uni Directional  mapping
+2. One to Many Uni Directional mapping
+3. Many to one Uni Directional mapping
+4. Many to many Uni Directional Mapping 
+
+***************************************
+
+1. One to One Bi Directional  mapping
+2. One to Many Bi Directional mapping
+3. Many to one Bi Directional mapping
+4. Many to many Bi Directional Mapping 
+
+
+---------------------------------------------------------------------------------------------------
+1. One to One Uni Directional  mapping
+	One Student have only One Address . true
+	<many-to-one> - FK Relationship Join 
+	
+
+One to One Mapping 
+
+1. One Citizen have only one passport . true
+2. One Persion have only one phone number. true
+3. One Student have only One Address . true
+
+***************************
+
+STUDENT_DETAILS
+	sid - PK
+	aid - FK
+	
+ADDRESS_DETAILS
+	aid - PK
+	sid - FK
+	
+	
+	
+	
+
+	
+	
+
+
+
+
+
+
+
+

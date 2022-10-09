@@ -1,0 +1,55 @@
+
+<property name="format_sql">true</property>
+  
+  insert 
+    into
+        CUSTOMER_INFO
+        (CUSTOMER_BALANCE, CUSTOMER_CITY, CUSTOMER_EMAIL, CUSTOMER_NAME, CUSTOMER_PHONE) 
+    values
+        (?, ?, ?, ?, ?)
+        
+****************
+        
+<property name="format_sql">false</property>
+
+insert into CUSTOMER_INFO (CUSTOMER_BALANCE, CUSTOMER_CITY, CUSTOMER_EMAIL, CUSTOMER_NAME, CUSTOMER_PHONE) values (?, ?, ?, ?, ?)
+
+
+sir, how do we write a code for a null table to add first data automatically
+ and keep inserting the next entries?
+ 
+ When you run your code first Time Configuration  should be [Dev Configuration ]
+<property name="hbm2ddl.auto">create</property>
+
+ANd From Next Time Onwards : [Production COnfiguration]
+ <property name="hbm2ddl.auto">update</property>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
