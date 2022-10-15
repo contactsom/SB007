@@ -1,0 +1,15 @@
+
+
+Uni Directional Mapping 
+Bi Directional Mapping 
+
+
+
+Student 		Address
+1. Student has Address - true - Uni
+2. This address belongs to this Student - true - Uni
+
+Bi- directional = Statement 1 + Statement 2
+
+
+Student 													Address

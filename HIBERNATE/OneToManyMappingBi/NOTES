@@ -1,0 +1,16 @@
+
+Customer 					Order
+
+1. One Customer have multiple order = True [ONE TO MANY MAPPING]	
+2. All Orders belongs to one customer .
+
+
+
+
+			Customer 											Order
+			
+			
+			Annotation
+			
+			
+			10:20 PM IST Assignment 
