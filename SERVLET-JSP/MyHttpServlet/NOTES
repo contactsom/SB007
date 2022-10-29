@@ -1,0 +1,10 @@
+http://localhost:8080/MyHttpServlet/StudentServlet
+
+
+Servlet :
+
+	Presentation Layer:
+		student.jsp
+	
+	Controller Layer
+		StudentServlet.java
