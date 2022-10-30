@@ -1,0 +1,20 @@
+http://localhost:8080/MyServletExample/
+
+
+http://localhost:8080/MyServletExample/simplilearn
+
+
+
+public abstract interface jakarta.servlet.Servlet {
+		public void destroy() {}
+		public ServletConfig getServletConfig() {}
+		public String getServletInfo() {}
+		public void init(ServletConfig arg0) throws ServletException {}
+		public void service(ServletRequest arg0, ServletResponse arg1) throws ServletException, IOException {}
+	}
+
+public abstract class jakarta.servlet.GenericServlet implements jakarta.servlet.Servlet { }
+
+public abstract class jakarta.servlet.http.HttpServlet extends jakarta.servlet.GenericServlet { }
+
+
