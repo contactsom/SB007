@@ -1,0 +1,67 @@
+show databases;
+
+Create database sb007;
+
+USE sb007;
+
+select * from STUDENT_PROJECT;
+
+
+CREATE TABLE STUDENT_PROJECT(
+    	FIRST_NAME varchar (255),
+     	LAST_NAME varchar (255),
+     	EMAIL varchar (255) NOT NULL PRIMARY KEY,
+     	PASSWORD varchar (255)
+     );
+
+     
+
+******************************************************
+
+eveloping a Backend Admin for Learner’s Academy.
+Project 1 
+DESCRIPTION
+Project objective: 
+As a Full Stack Developer, design and develop a backend administrative portal for the Learner’s Academy. Use the GitHub repository to manage the project artifacts. 
+ 
+Background of the problem statement:
+Learner’s Academy is a school that has an online management system.
+ The system keeps track of its classes, subjects, students, and teachers.
+  It has a back-office application with a single administrator login.
+ 
+The administrator can:
+● Set up a master list of all the subjects for all the classes
+● Set up a master list of all the teachers
+● Set up a master list of all the classes
+
+● Assign classes for subjects from the master list
+● Assign teachers to a class for a subject (A teacher can be assigned to different classes for different subjects)
+● Get a master list of students (Each student must be assigned to a single class)
+     
+There will be an option to view a Class Report which will show all the information about the class, 
+such as the list of students, subjects, and teachers
+     
+The goal of the company is to deliver a high-end quality product as early as possible. 
+ 
+
+
+TABLE [Static]:
+SUBJECT_CLASS
+	PK(AUTO) SUBJECT_ID, SUBJECT_NAME, CLASS_ID, CLASS_NAME
+TEACHERS:
+	TEACHER_ID[PK] TEACHE_NAME
+	
+CLASSES:
+	CLASS_ID[PK], CLASS_NAME
+	
+STUDENT
+	STUDENT_ID[PK] STUDENT_NAME STUDENT_EMAIL
+
+
+
+
+
+
+
+
+	
